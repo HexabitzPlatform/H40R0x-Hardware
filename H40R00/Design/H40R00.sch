@@ -2697,14 +2697,14 @@ W = angled&lt;p&gt;
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VDD" device=""/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R1" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0603" device="" package3d_urn="urn:adsk.eagle:package:1435818/3">
+<part name="R1" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0603" device="" package3d_urn="urn:adsk.eagle:package:1435818/3" value="680">
 <attribute name="MFN" value="Yageo"/>
 <attribute name="MPN" value="RC0603JR-07680RL"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/rc0603jr-07680rl-yageo-40953172?r=sp"/>
 <attribute name="RESISTANCE" value="680"/>
 <attribute name="TOLERANCE" value="5%"/>
 </part>
-<part name="R2" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0603" device="" package3d_urn="urn:adsk.eagle:package:1435818/3">
+<part name="R2" library="HEXABITZ_RCLS" library_urn="urn:adsk.eagle:library:20064561" deviceset="R-0603" device="" package3d_urn="urn:adsk.eagle:package:1435818/3" value="680">
 <attribute name="MFN" value="Yageo"/>
 <attribute name="MPN" value="RC0603JR-07680RL"/>
 <attribute name="OCTOPART_URL" value="https://octopart.com/rc0603jr-07680rl-yageo-40953172?r=sp"/>
@@ -5109,12 +5109,10 @@ W = angled&lt;p&gt;
 <instance part="R1" gate="G$1" x="234.95" y="140.97" smashed="yes" rot="R90">
 <attribute name="NAME" x="233.4514" y="137.16" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="238.252" y="137.16" size="1.778" layer="96" rot="R90"/>
-<attribute name="RESISTANCE" x="233.68" y="143.51" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R2" gate="G$1" x="118.11" y="125.73" smashed="yes" rot="R180">
-<attribute name="NAME" x="121.92" y="124.2314" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="121.92" y="129.032" size="1.778" layer="96" rot="R180"/>
-<attribute name="RESISTANCE" x="115.57" y="124.46" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="115.57" y="129.3114" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="124.46" y="129.032" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="106.68" y="130.81" smashed="yes">
 <attribute name="VALUE" x="104.775" y="133.985" size="1.778" layer="96"/>
@@ -5443,27 +5441,24 @@ W = angled&lt;p&gt;
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,135.89,119.38,U1,VBAT,VDD,,,"/>
-<approved hash="104,1,135.89,116.84,U1,VDD_0,VDD,,,"/>
-<approved hash="104,1,135.89,114.3,U1,VDD_1,VDD,,,"/>
-<approved hash="104,1,135.89,109.22,U1,VDDIO2,VDD,,,"/>
-<approved hash="104,1,191.77,119.38,U1,EP,GND,,,"/>
-<approved hash="104,1,191.77,116.84,U1,VSS_0,GND,,,"/>
-<approved hash="104,1,191.77,114.3,U1,VSS_1,GND,,,"/>
-<approved hash="104,1,191.77,111.76,U1,VSS_2,GND,,,"/>
-<approved hash="104,1,191.77,109.22,U1,VSS_A,VSSA,,,"/>
-<approved hash="104,1,40.64,172.72,P1,VDD1,VDD,,,"/>
 <approved hash="104,1,40.64,167.64,P1,VDD2,VDD,,,"/>
 <approved hash="104,1,40.64,162.56,P1,VDD3,VDD,,,"/>
 <approved hash="104,1,40.64,157.48,P1,VDD4,VDD,,,"/>
 <approved hash="104,1,40.64,152.4,P1,VDD5,VDD,,,"/>
-<approved hash="104,1,40.64,147.32,P1,VDD6,VDD,,,"/>
-<approved hash="104,1,40.64,137.16,P1,GND1,GND,,,"/>
 <approved hash="104,1,40.64,132.08,P1,GND2,GND,,,"/>
 <approved hash="104,1,40.64,127,P1,GND3,GND,,,"/>
 <approved hash="104,1,40.64,121.92,P1,GND4,GND,,,"/>
 <approved hash="104,1,40.64,116.84,P1,GND5,GND,,,"/>
-<approved hash="104,1,40.64,111.76,P1,GND6,GND,,,"/>
+<approved hash="113,1,79.9677,173.695,VTX1,,,,,"/>
+<approved hash="113,1,79.9677,168.615,VTX2,,,,,"/>
+<approved hash="113,1,79.9677,158.455,VTX3,,,,,"/>
+<approved hash="113,1,79.9677,153.375,VTX4,,,,,"/>
+<approved hash="113,1,79.9677,138.135,VRX1,,,,,"/>
+<approved hash="113,1,79.9677,133.055,VRX2,,,,,"/>
+<approved hash="113,1,79.9677,122.895,VRX3,,,,,"/>
+<approved hash="113,1,79.9677,117.815,VRX4,,,,,"/>
+<approved hash="113,1,179.028,100.62,SWD,,,,,"/>
+<approved hash="113,1,159.741,102.112,JP1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
